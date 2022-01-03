@@ -1,11 +1,8 @@
 ---
 - hosts: local
-  vars:
-    preferred_adblock: abba23-adblock-linux
-    remove_default_launcher: false
 
   roles:
   - role: favorite
 
   - role: Variety
-  - role: favorite sources
+  - role: Favorite
