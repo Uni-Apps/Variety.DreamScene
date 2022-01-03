@@ -1,0 +1,7 @@
+---
+- name: Variety
+  community.general.pacman:
+    name:
+      - variety
+    state: present
+  become: true
